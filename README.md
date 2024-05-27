@@ -5,13 +5,13 @@
 * The whole idea of neural style transfer is to create a new image that has the mixed features from both original image and style image.
 
 * The orginal research paper was published in 2015.
-![Screenshot of paper](powerpoint/NST theory png.png)
+![Screenshot of paper](powerpoint/NST_theory png.png)
 
 * In the paper, the researchers create a customized model from 5 conv layers in the original vgg 19 model. (conv 1-1, 2-1, 3-1, 4-1, 5-1).
 ![Screenshot of layers](powerpoint/chosen_layers.png)
 
 * It is quite easy to implement this in the code.
-![Screenshot of code](powerpoint/custom vgg.png)
+![Screenshot of code](powerpoint/custom_vgg.png)
 
 * Before the training, we need some functions to process the images.
 ![Screenshot of code](powerpoint/img_process.png)
