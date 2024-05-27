@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stable Diffusion v1.5 Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <style>
+        /* Target all input elements within the form */
+        form input {
+            width: 800px;  /* Adjust the value for your desired width */
+        }
+
+        form label {
+            font-weight: bold;
+            margin-top: 15px;  
+        }
+    </style>
+
+</head>
+<body>
+<div class="container" style="text-align: center;">
+
+    <div id="title" style="margin-top: 50px;">
+    <h1>Stable Diffusion v1.5 Demo</h1>
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+        <div id="form-div">
+        
+          <h4>Prompts Design</h4>
+      
+          <form id="myForm" method="POST">
+            <div>
+              <label for="name">Initial prompt:</label><br>
+              <input type="text" id="input" name="input" value="{{ input }}" required>
+            </div>
+  
+            <div>
+              <label for="bid">Add details:</label><br>
+              <input type="text" id="details" name="details" value="{{ details }}">
+            </div>
+  
+            <div>
+              <label for="amount">Add cues:</label><br>
+              <input type="text" id="cues" name="cues" value="{{ cues }}">
+            </div>
+
+            <button type="submit" style="margin-top:10px;">Generate</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+          {% for img in pics %}
+          <div class="image">
+          <img src="data:image/png;base64, {{img}}" alt="Earnings vs Revenues" style="width:512px;height:512px;margin-top: 10px;">
+          </div>
+          {% endfor %}
+      </div>
+
+</div>
+<script src="{{ url_for('static', filename='js/logic.js') }}"></script>
+</body>
+</html>
