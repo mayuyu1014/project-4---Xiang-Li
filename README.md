@@ -27,9 +27,9 @@
 ![Screenshot of code](powerpoint/nst_code.png)
 
 * Some nice results!
-![Screenshot of NST results](database/test/jp+f3.png)
-![Screenshot of NST results](database/test/s12+f2.png)
-![Screenshot of NST results](database/test/s11+f3.png)
+![Screenshot of NST results](database/test/jp+fa3.png)
+![Screenshot of NST results](database/test/s12+fa2.png)
+![Screenshot of NST results](database/test/fa3+s11.png)
 ![Screenshot of NST results](database/test/mel1+vg.png)
 ![Screenshot of NST results](database/test/s14+f5.png)
 
@@ -58,9 +58,15 @@
 ![Screenshot of code](powerpoint/slerp.png)
 * Sin/cos 0 - 2pi transition, start by moving from 0 to 2π and at each step we add the cosine of x and the sine of y to the result. Using this approach, at the end of our movement we end up with the same noise values ​​that we started with.
 ![Screenshot of code](powerpoint/interpolation_code.png)
-* Some test results.
+
+* Some test results with Stable Diffusion v1.5
+
+* "a dancing man watching sunset in a dog park with his cat" += "leica summicron 35mm f2.0, kodak portra 400, film grain"
 ![.gif of interpolation](database/test/manchit_interpolation1.gif)
+
 ![.gif of interpolation](database/test/manchit_interpolation2.gif)
+
+* "a busy street in a cyber punk city" += "leica summicron 35mm f2.0, kodak portra 400, film grain"
 ![.gif of interpolation](database/test/test_interpolation1.gif)
 
 # Neural Network training with MNIST dataset
