@@ -27,11 +27,11 @@
 ![Screenshot of code](powerpoint/nst_code.png)
 
 * Some nice results!
-![Screenshot of NST results](powerpoint/jp+f3.png)
-![Screenshot of NST results](powerpoint/s12+f2.png)
-![Screenshot of NST results](powerpoint/s11+f3.png)
-![Screenshot of NST results](powerpoint/mel1+vg.png)
-![Screenshot of NST results](powerpoint/s14+f5.png)
+![Screenshot of NST results](database/test/jp+f3.png)
+![Screenshot of NST results](database/test/s12+f2.png)
+![Screenshot of NST results](database/test/s11+f3.png)
+![Screenshot of NST results](database/test/mel1+vg.png)
+![Screenshot of NST results](database/test/s14+f5.png)
 
 # Stable Diffusion Prompt Engineering through Web Application
 
@@ -59,9 +59,9 @@
 * Sin/cos 0 - 2pi transition, start by moving from 0 to 2π and at each step we add the cosine of x and the sine of y to the result. Using this approach, at the end of our movement we end up with the same noise values ​​that we started with.
 ![Screenshot of code](powerpoint/interpolation_code.png)
 * Some test results.
-![.gif of interpolation](powerpoint/manchit_interpolation1.gif)
-![.gif of interpolation](powerpoint/manchit_interpolation2.gif)
-![.gif of interpolation](powerpoint/test_interpolation1.gif)
+![.gif of interpolation](database/test/manchit_interpolation1.gif)
+![.gif of interpolation](database/test/manchit_interpolation2.gif)
+![.gif of interpolation](database/test/test_interpolation1.gif)
 
 # Neural Network training with MNIST dataset
 
